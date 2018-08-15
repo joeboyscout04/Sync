@@ -13,8 +13,6 @@ class DictionaryTests: XCTestCase {
         "inflection_integer": 1,
         "ignored_parameter": "ignored",
         "ignore_transformable": "string",
-        "inflection_uuid": "E621E1F8-C36C-495A-93FC-0C247A3E6E5F",
-        "inflection_uri": "https://www.apple.com/"
         ] as [String : Any]
 
     func testExportDictionaryWithSnakeCase() {
@@ -31,9 +29,7 @@ class DictionaryTests: XCTestCase {
             "randomRemoteKey": "randomRemoteKey",
             "inflection_id": 1,
             "inflection_string": "string",
-            "inflection_integer": 1,
-            "inflection_uuid": "E621E1F8-C36C-495A-93FC-0C247A3E6E5F",
-            "inflection_uri": "https://www.apple.com/"
+            "inflection_integer": 1
             ] as [String : Any]
 
         let formatter = DateFormatter()
@@ -65,9 +61,7 @@ class DictionaryTests: XCTestCase {
             "randomRemoteKey": "randomRemoteKey",
             "inflectionID": 1,
             "inflectionString": "string",
-            "inflectionInteger": 1,
-            "inflectionUUID": "E621E1F8-C36C-495A-93FC-0C247A3E6E5F",
-            "inflectionURI": "https://www.apple.com/"
+            "inflectionInteger": 1
             ] as [String : Any]
 
         let formatter = DateFormatter()
@@ -103,8 +97,6 @@ class DictionaryTests: XCTestCase {
             "inflection_string": NSNull(),
             "randomRemoteKey": NSNull(),
             "description": NSNull(),
-            "inflection_uuid": NSNull(),
-            "inflection_uri": NSNull(),
             "camel_case_company": [
                 "inflection_id": 1
             ]
@@ -137,8 +129,6 @@ class DictionaryTests: XCTestCase {
             "inflectionString": NSNull(),
             "randomRemoteKey": NSNull(),
             "description": NSNull(),
-            "inflectionUUID": NSNull(),
-            "inflectionURI": NSNull(),
             "camelCaseCompany": [
                 "inflectionID": 1
             ]
@@ -171,8 +161,6 @@ class DictionaryTests: XCTestCase {
             "inflection_string": NSNull(),
             "randomRemoteKey": NSNull(),
             "description": NSNull(),
-            "inflection_uuid": NSNull(),
-            "inflection_uri": NSNull(),
             "camel_case_company_attributes": [
                 "inflection_id": 1
             ]
@@ -205,8 +193,6 @@ class DictionaryTests: XCTestCase {
             "inflectionString": NSNull(),
             "randomRemoteKey": NSNull(),
             "description": NSNull(),
-            "inflectionUUID": NSNull(),
-            "inflectionURI": NSNull(),
             "camelCaseCompanyAttributes": [
                 "inflectionID": 1
             ]

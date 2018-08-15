@@ -13,8 +13,6 @@ class ExportTests: XCTestCase {
         "inflection_integer": 1,
         "ignored_parameter": "ignored",
         "ignore_transformable": "string",
-        "inflection_uuid": "E621E1F8-C36C-495A-93FC-0C247A3E6E5F",
-        "inflection_uri": "https://www.apple.com/"
         ] as [String : Any]
 
     func testExportDictionaryWithSnakeCase() {
@@ -31,9 +29,7 @@ class ExportTests: XCTestCase {
             "randomRemoteKey": "randomRemoteKey",
             "inflection_id": 1,
             "inflection_string": "string",
-            "inflection_integer": 1,
-            "inflection_uuid": "E621E1F8-C36C-495A-93FC-0C247A3E6E5F",
-            "inflection_uri": "https://www.apple.com/"
+            "inflection_integer": 1
             ] as [String : Any]
 
         let formatter = DateFormatter()
@@ -67,9 +63,7 @@ class ExportTests: XCTestCase {
             "randomRemoteKey": "randomRemoteKey",
             "inflectionID": 1,
             "inflectionString": "string",
-            "inflectionInteger": 1,
-            "inflectionUUID": "E621E1F8-C36C-495A-93FC-0C247A3E6E5F",
-            "inflectionURI": "https://www.apple.com/"
+            "inflectionInteger": 1
             ] as [String : Any]
 
         let formatter = DateFormatter()
@@ -107,8 +101,6 @@ class ExportTests: XCTestCase {
             "inflection_string": NSNull(),
             "randomRemoteKey": NSNull(),
             "description": NSNull(),
-            "inflection_uuid": NSNull(),
-            "inflection_uri": NSNull(),
             "camel_case_company": [
                 "inflection_id": 1
             ]
@@ -140,8 +132,6 @@ class ExportTests: XCTestCase {
             "inflectionString": NSNull(),
             "randomRemoteKey": NSNull(),
             "description": NSNull(),
-            "inflectionUUID": NSNull(),
-            "inflectionURI": NSNull(),
             "camelCaseCompany": [
                 "inflectionID": 1
             ]
@@ -174,8 +164,6 @@ class ExportTests: XCTestCase {
             "inflection_string": NSNull(),
             "randomRemoteKey": NSNull(),
             "description": NSNull(),
-            "inflection_uuid": NSNull(),
-            "inflection_uri": NSNull(),
             "camel_case_company_attributes": [
                 "inflection_id": 1
             ]
@@ -209,8 +197,6 @@ class ExportTests: XCTestCase {
             "inflectionString": NSNull(),
             "randomRemoteKey": NSNull(),
             "description": NSNull(),
-            "inflectionUUID": NSNull(),
-            "inflectionURI": NSNull(),
             "camelCaseCompanyAttributes": [
                 "inflectionID": 1
             ]
@@ -313,27 +299,6 @@ class ExportTests: XCTestCase {
         XCTAssertEqual(rootKeys[2], "workout_desc")
         XCTAssertEqual(rootKeys[3], "workout_name")
         XCTAssertEqual(rootKeys[4], "workout_exercises")
-        
-        dataStack.drop()
-    }
-    
-    func testBug482NestedKeys() {
-
-        let userJson: [String : Any] = ["id" : UUID().uuidString,
-                        "attributes": ["name": "John Smith",
-                                       "contact": ["email": "email@me.com",
-                                                   "phone": "555-5555"]
-                                      ]
-                        ]
-        
-        let dataStack = Helper.dataStackWithModelName("482")
-        let user = NSEntityDescription.insertNewObject(forEntityName: "User", into: dataStack.mainContext)
-        user.fill(with: userJson)
-        try! dataStack.mainContext.save()
-        
-        let result = user.export()
-        
-        XCTAssertEqual(userJson as NSDictionary, result as NSDictionary)
         
         dataStack.drop()
     }

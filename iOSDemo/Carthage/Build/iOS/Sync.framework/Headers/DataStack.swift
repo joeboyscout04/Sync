@@ -430,7 +430,7 @@ extension NSPersistentStoreCoordinator {
                 }
             }
 
-            let options = [NSMigratePersistentStoresAutomaticallyOption: true, NSInferMappingModelAutomaticallyOption: true, NSSQLitePragmasOption: ["journal_mode": "DELETE"]] as [AnyHashable : Any]
+            let options = [NSMigratePersistentStoresAutomaticallyOption: true, NSInferMappingModelAutomaticallyOption: true]
             do {
                 try self.addPersistentStore(ofType: NSSQLiteStoreType, configurationName: nil, at: storeURL, options: options)
             } catch {
@@ -496,11 +496,7 @@ extension URL {
         #if os(tvOS)
             return FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask).last!
         #else
-        if TestCheck.isTesting {
-            return FileManager.default.urls(for: .cachesDirectory, in: .userDomainMask).last!
-        } else {
             return FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).last!
-        }
         #endif
     }
 }

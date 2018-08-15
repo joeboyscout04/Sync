@@ -123,7 +123,6 @@
         // Unit test E
         else if (originalLength == 28 && originalString[23] == '+') {
             strncpy(currentString, originalString, 19);
-            hasMiliseconds = YES;
         }
 
         // Copy all the date excluding the microseconds and the Z.
@@ -132,7 +131,6 @@
         // Unit test F
         else if (originalString[19] == '.' && originalString[originalLength - 1] == 'Z') {
             strncpy(currentString, originalString, 19);
-            hasMicroseconds = YES;
         }
 
         // Copy all the date excluding the miliseconds.
@@ -202,16 +200,9 @@
             }
 
             if (hasMicroseconds) {
-                // Converts microseconds to miliseconds to keep consistency with NSDateFormatter
-                // since it doesn't handle microseconds
                 NSString *microsecondsString = [trimmedDate substringToIndex:@"000000".length];
-                double reducedHundreds = microsecondsString.doubleValue / 1000.0;
-                int hundredsInt = reducedHundreds;
-                double microsecondsWithoutHundreds = reducedHundreds - hundredsInt;
-                double removedMicroseconds = microsecondsWithoutHundreds * 1000;
-                double convertedMicroseconds = microsecondsString.doubleValue - removedMicroseconds;
-                double miliseconds = convertedMicroseconds / 1000000.0;
-                time += miliseconds;
+                double microseconds = microsecondsString.doubleValue / 1000000.0;
+                time += microseconds;
             }
         }
 
