@@ -703,6 +703,34 @@
 		5D289325203EB81800C8102C /* 482.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D289323203EB81800C8102C /* 482.xcdatamodeld */; };
 		5D96F24F219AD98200F88770 /* 519.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D96F24D219AD98200F88770 /* 519.xcdatamodeld */; };
 		5D96F251219ADAFB00F88770 /* 519.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D96F250219ADAFB00F88770 /* 519.json */; };
+		5DB9E017219AE3EB00D6F869 /* 519.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D96F24D219AD98200F88770 /* 519.xcdatamodeld */; };
+		5DB9E018219AE3EC00D6F869 /* 519.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D96F24D219AD98200F88770 /* 519.xcdatamodeld */; };
+		5DB9E019219AE3F100D6F869 /* 519.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D96F250219ADAFB00F88770 /* 519.json */; };
+		5DB9E01A219AE3F100D6F869 /* 519.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D96F250219ADAFB00F88770 /* 519.json */; };
+		6036A26121E6590400275A06 /* 453-to-many-ordered-relationship-objects-initial.json in Resources */ = {isa = PBXBuildFile; fileRef = 6036A26021E6590400275A06 /* 453-to-many-ordered-relationship-objects-initial.json */; };
+		6036A26321E6592600275A06 /* 453-to-many-ordered-relationship-objects-update.json in Resources */ = {isa = PBXBuildFile; fileRef = 6036A26221E6592600275A06 /* 453-to-many-ordered-relationship-objects-update.json */; };
+		6036A26521E65BC200275A06 /* 453-to-many-ordered-relationship-ids-update.json in Resources */ = {isa = PBXBuildFile; fileRef = 6036A26421E65BC200275A06 /* 453-to-many-ordered-relationship-ids-update.json */; };
+		6036A26721E6718800275A06 /* 453-to-many-ordered-relationship-item-insert.json in Resources */ = {isa = PBXBuildFile; fileRef = 6036A26621E6718800275A06 /* 453-to-many-ordered-relationship-item-insert.json */; };
+		6036A26821E6743E00275A06 /* 453-to-many-ordered-relationship-item-insert.json in Resources */ = {isa = PBXBuildFile; fileRef = 6036A26621E6718800275A06 /* 453-to-many-ordered-relationship-item-insert.json */; };
+		6036A26921E6743E00275A06 /* 453-to-many-ordered-relationship-item-insert.json in Resources */ = {isa = PBXBuildFile; fileRef = 6036A26621E6718800275A06 /* 453-to-many-ordered-relationship-item-insert.json */; };
+		6036A26A21E6744200275A06 /* 453-to-many-ordered-relationship-ids-update.json in Resources */ = {isa = PBXBuildFile; fileRef = 6036A26421E65BC200275A06 /* 453-to-many-ordered-relationship-ids-update.json */; };
+		6036A26B21E6744200275A06 /* 453-to-many-ordered-relationship-ids-update.json in Resources */ = {isa = PBXBuildFile; fileRef = 6036A26421E65BC200275A06 /* 453-to-many-ordered-relationship-ids-update.json */; };
+		6036A26C21E6744500275A06 /* 453-to-many-ordered-relationship-objects-update.json in Resources */ = {isa = PBXBuildFile; fileRef = 6036A26221E6592600275A06 /* 453-to-many-ordered-relationship-objects-update.json */; };
+		6036A26D21E6744500275A06 /* 453-to-many-ordered-relationship-objects-update.json in Resources */ = {isa = PBXBuildFile; fileRef = 6036A26221E6592600275A06 /* 453-to-many-ordered-relationship-objects-update.json */; };
+		6036A26E21E6744700275A06 /* 453-to-many-ordered-relationship-objects-initial.json in Resources */ = {isa = PBXBuildFile; fileRef = 6036A26021E6590400275A06 /* 453-to-many-ordered-relationship-objects-initial.json */; };
+		6036A27021E6755700275A06 /* 453-to-many-ordered-relationship-objects-initial.json in Resources */ = {isa = PBXBuildFile; fileRef = 6036A26021E6590400275A06 /* 453-to-many-ordered-relationship-objects-initial.json */; };
+		60802B4F21E4085A00307B88 /* ordered-many-to-many-update-inital.json in Resources */ = {isa = PBXBuildFile; fileRef = 60802B4E21E4085A00307B88 /* ordered-many-to-many-update-inital.json */; };
+		60802B5121E4089700307B88 /* ordered-many-to-many-update-update.json in Resources */ = {isa = PBXBuildFile; fileRef = 60802B5021E4089700307B88 /* ordered-many-to-many-update-update.json */; };
+		60802B5421E40A3500307B88 /* ordered-many-to-many-update.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60802B5221E40A3500307B88 /* ordered-many-to-many-update.xcdatamodeld */; };
+		60802B5521E40D2700307B88 /* ordered-many-to-many-update-inital.json in Resources */ = {isa = PBXBuildFile; fileRef = 60802B4E21E4085A00307B88 /* ordered-many-to-many-update-inital.json */; };
+		60802B5621E40D2700307B88 /* ordered-many-to-many-update-inital.json in Resources */ = {isa = PBXBuildFile; fileRef = 60802B4E21E4085A00307B88 /* ordered-many-to-many-update-inital.json */; };
+		60802B5721E40D2A00307B88 /* ordered-many-to-many-update-update.json in Resources */ = {isa = PBXBuildFile; fileRef = 60802B5021E4089700307B88 /* ordered-many-to-many-update-update.json */; };
+		60802B5821E40D2A00307B88 /* ordered-many-to-many-update-update.json in Resources */ = {isa = PBXBuildFile; fileRef = 60802B5021E4089700307B88 /* ordered-many-to-many-update-update.json */; };
+		60802B5A21E411C500307B88 /* inital-ordered-many-to-many-update.json in Resources */ = {isa = PBXBuildFile; fileRef = 60802B5921E411C500307B88 /* inital-ordered-many-to-many-update.json */; };
+		60802B5B21E411E100307B88 /* inital-ordered-many-to-many-update.json in Resources */ = {isa = PBXBuildFile; fileRef = 60802B5921E411C500307B88 /* inital-ordered-many-to-many-update.json */; };
+		60802B5C21E411E200307B88 /* inital-ordered-many-to-many-update.json in Resources */ = {isa = PBXBuildFile; fileRef = 60802B5921E411C500307B88 /* inital-ordered-many-to-many-update.json */; };
+		60802B5D21E41A1200307B88 /* ordered-many-to-many-update.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60802B5221E40A3500307B88 /* ordered-many-to-many-update.xcdatamodeld */; };
+		60802B5E21E41A1300307B88 /* ordered-many-to-many-update.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60802B5221E40A3500307B88 /* ordered-many-to-many-update.xcdatamodeld */; };
 		CC86E0A120216FCC00AA0947 /* 447.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC86E09F20216FCC00AA0947 /* 447.xcdatamodeld */; };
 		CC86E0A220216FCC00AA0947 /* 447.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC86E09F20216FCC00AA0947 /* 447.xcdatamodeld */; };
 		CC86E0A320216FCC00AA0947 /* 447.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC86E09F20216FCC00AA0947 /* 447.xcdatamodeld */; };
@@ -1041,6 +1069,14 @@
 		5D289324203EB81800C8102C /* 482.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = 482.xcdatamodel; sourceTree = "<group>"; };
 		5D96F24E219AD98200F88770 /* 519.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = 519.xcdatamodel; sourceTree = "<group>"; };
 		5D96F250219ADAFB00F88770 /* 519.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 519.json; sourceTree = "<group>"; };
+		6036A26021E6590400275A06 /* 453-to-many-ordered-relationship-objects-initial.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "453-to-many-ordered-relationship-objects-initial.json"; sourceTree = "<group>"; };
+		6036A26221E6592600275A06 /* 453-to-many-ordered-relationship-objects-update.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "453-to-many-ordered-relationship-objects-update.json"; sourceTree = "<group>"; };
+		6036A26421E65BC200275A06 /* 453-to-many-ordered-relationship-ids-update.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "453-to-many-ordered-relationship-ids-update.json"; sourceTree = "<group>"; };
+		6036A26621E6718800275A06 /* 453-to-many-ordered-relationship-item-insert.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "453-to-many-ordered-relationship-item-insert.json"; sourceTree = "<group>"; };
+		60802B4E21E4085A00307B88 /* ordered-many-to-many-update-inital.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "ordered-many-to-many-update-inital.json"; sourceTree = "<group>"; };
+		60802B5021E4089700307B88 /* ordered-many-to-many-update-update.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "ordered-many-to-many-update-update.json"; sourceTree = "<group>"; };
+		60802B5321E40A3500307B88 /* update-ordered-many-to-many.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "update-ordered-many-to-many.xcdatamodel"; sourceTree = "<group>"; };
+		60802B5921E411C500307B88 /* inital-ordered-many-to-many-update.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "inital-ordered-many-to-many-update.json"; sourceTree = "<group>"; };
 		CC86E0A020216FCC00AA0947 /* 413.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = 413.xcdatamodel; sourceTree = "<group>"; };
 		CC86E0A420216FF300AA0947 /* primary-key-organizations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "primary-key-organizations.json"; sourceTree = "<group>"; };
 		CC86E0A520216FF300AA0947 /* 447.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 447.json; sourceTree = "<group>"; };
@@ -1356,6 +1392,13 @@
 				14867D5C1E7AF4D2001D228A /* users_notes.json */,
 				CCF9495A203AF4AF00C64B80 /* 480.json */,
 				5D96F250219ADAFB00F88770 /* 519.json */,
+				60802B4E21E4085A00307B88 /* ordered-many-to-many-update-inital.json */,
+				60802B5021E4089700307B88 /* ordered-many-to-many-update-update.json */,
+				60802B5921E411C500307B88 /* inital-ordered-many-to-many-update.json */,
+				6036A26021E6590400275A06 /* 453-to-many-ordered-relationship-objects-initial.json */,
+				6036A26221E6592600275A06 /* 453-to-many-ordered-relationship-objects-update.json */,
+				6036A26621E6718800275A06 /* 453-to-many-ordered-relationship-item-insert.json */,
+				6036A26421E65BC200275A06 /* 453-to-many-ordered-relationship-ids-update.json */,
 			);
 			path = JSONs;
 			sourceTree = "<group>";
@@ -1413,6 +1456,7 @@
 				14867DA41E7AF4D2001D228A /* ToOne.xcdatamodeld */,
 				14867DA61E7AF4D2001D228A /* Unique.xcdatamodeld */,
 				5D96F24D219AD98200F88770 /* 519.xcdatamodeld */,
+				60802B5221E40A3500307B88 /* ordered-many-to-many-update.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1946,16 +1990,21 @@
 				149FF9EE1E808DFB00617A63 /* 375.json in Resources */,
 				14867E391E7AF4D2001D228A /* 233.json in Resources */,
 				14867E4E1E7AF4D2001D228A /* 3ca82a0.json in Resources */,
+				60802B4F21E4085A00307B88 /* ordered-many-to-many-update-inital.json in Resources */,
 				CC9494141F379401002167B4 /* 375-to-one-speeches.json in Resources */,
 				14867E1B1E7AF4D2001D228A /* 151-to-many-notes.json in Resources */,
 				CC86E0AB20216FF400AA0947 /* 447.json in Resources */,
+				60802B5A21E411C500307B88 /* inital-ordered-many-to-many-update.json in Resources */,
 				14867EB41E7AF4D2001D228A /* to-one-snakecase.json in Resources */,
 				14867E511E7AF4D2001D228A /* bug-113-comments-no-id.json in Resources */,
 				14867E931E7AF4D2001D228A /* notes_with_user_id_custom.json in Resources */,
 				14867DE51E7AF4D2001D228A /* users.json in Resources */,
+				6036A26721E6718800275A06 /* 453-to-many-ordered-relationship-item-insert.json in Resources */,
+				6036A26121E6590400275A06 /* 453-to-many-ordered-relationship-objects-initial.json in Resources */,
 				14867EB11E7AF4D2001D228A /* to-one-camelcase.json in Resources */,
 				14867E841E7AF4D2001D228A /* id.json in Resources */,
 				14867EBD1E7AF4D2001D228A /* users_b.json in Resources */,
+				60802B5121E4089700307B88 /* ordered-many-to-many-update-update.json in Resources */,
 				14867E211E7AF4D2001D228A /* 151-to-many-users.json in Resources */,
 				14867E7B1E7AF4D2001D228A /* comments-no-id.json in Resources */,
 				44E38AFC2005E68D003E896B /* 422-one-to-many-insert-option-initial.json in Resources */,
@@ -1972,6 +2021,7 @@
 				14867E9F1E7AF4D2001D228A /* operation-types-users-b.json in Resources */,
 				14867E361E7AF4D2001D228A /* 225-a.json in Resources */,
 				14867E6F1E7AF4D2001D228A /* bug-254.json in Resources */,
+				6036A26321E6592600275A06 /* 453-to-many-ordered-relationship-objects-update.json in Resources */,
 				44E38B2C2005EEB2003E896B /* 422-one-to-one-delete-option-initial.json in Resources */,
 				14867EC61E7AF4D2001D228A /* users_notes.json in Resources */,
 				44E38B0E2005EE70003E896B /* 422-many-to-many-insert-option-update.json in Resources */,
@@ -1981,6 +2031,7 @@
 				14867EA51E7AF4D2001D228A /* patients.json in Resources */,
 				14867E991E7AF4D2001D228A /* numbers_in_collection.json in Resources */,
 				14867DE81E7AF4D2001D228A /* users2.json in Resources */,
+				6036A26521E65BC200275A06 /* 453-to-many-ordered-relationship-ids-update.json in Resources */,
 				14867EBA1E7AF4D2001D228A /* users_a.json in Resources */,
 				44E38B112005EE70003E896B /* 422-many-to-many-update-option-initial.json in Resources */,
 				14867EAB1E7AF4D2001D228A /* story-summarize.json in Resources */,
@@ -2038,6 +2089,7 @@
 				14867EA91E7AF4D2001D228A /* stories-comments-no-ids.json in Resources */,
 				44E38B332005EEB2003E896B /* 422-one-to-one-insert-option-initial.json in Resources */,
 				14E6522B1E809A68000E7CC6 /* remote_key.json in Resources */,
+				5DB9E019219AE3F100D6F869 /* 519.json in Resources */,
 				14867EC11E7AF4D2001D228A /* users_c.json in Resources */,
 				14867E761E7AF4D2001D228A /* bug-number-84.json in Resources */,
 				44E38AFA2005E68D003E896B /* 422-one-to-many-delete-option-initial.json in Resources */,
@@ -2048,6 +2100,7 @@
 				14867E2B1E7AF4D2001D228A /* 157-locations.json in Resources */,
 				14867E251E7AF4D2001D228A /* 157-cities.json in Resources */,
 				44E38B152005EE70003E896B /* 422-many-to-many-delete-option-update.json in Resources */,
+				6036A26C21E6744500275A06 /* 453-to-many-ordered-relationship-objects-update.json in Resources */,
 				44E38B242005EEB2003E896B /* 422-one-to-one-update-option-initial.json in Resources */,
 				44BBBC731F9F026200590624 /* 412.json in Resources */,
 				14867E461E7AF4D2001D228A /* 280.json in Resources */,
@@ -2056,16 +2109,20 @@
 				14867E4F1E7AF4D2001D228A /* 3ca82a0.json in Resources */,
 				CC9494151F379401002167B4 /* 375-to-one-speeches.json in Resources */,
 				14867E1C1E7AF4D2001D228A /* 151-to-many-notes.json in Resources */,
+				60802B5521E40D2700307B88 /* ordered-many-to-many-update-inital.json in Resources */,
 				14867EB51E7AF4D2001D228A /* to-one-snakecase.json in Resources */,
 				14867E521E7AF4D2001D228A /* bug-113-comments-no-id.json in Resources */,
 				CC86E0AC20216FF400AA0947 /* 447.json in Resources */,
+				60802B5B21E411E100307B88 /* inital-ordered-many-to-many-update.json in Resources */,
 				14867E941E7AF4D2001D228A /* notes_with_user_id_custom.json in Resources */,
 				14867DE61E7AF4D2001D228A /* users.json in Resources */,
 				14867EB21E7AF4D2001D228A /* to-one-camelcase.json in Resources */,
 				14867E851E7AF4D2001D228A /* id.json in Resources */,
 				14867EBE1E7AF4D2001D228A /* users_b.json in Resources */,
+				6036A26E21E6744700275A06 /* 453-to-many-ordered-relationship-objects-initial.json in Resources */,
 				14867E221E7AF4D2001D228A /* 151-to-many-users.json in Resources */,
 				14867E7C1E7AF4D2001D228A /* comments-no-id.json in Resources */,
+				60802B5721E40D2A00307B88 /* ordered-many-to-many-update-update.json in Resources */,
 				44E38AFD2005E68D003E896B /* 422-one-to-many-insert-option-initial.json in Resources */,
 				14867DEC1E7AF4D2001D228A /* users3.json in Resources */,
 				44E38B032005E68D003E896B /* 422-one-to-many-update-option-initial.json in Resources */,
@@ -2080,6 +2137,7 @@
 				14867EA01E7AF4D2001D228A /* operation-types-users-b.json in Resources */,
 				4494AEA91FE5E3400064999E /* 457-products.json in Resources */,
 				14867E371E7AF4D2001D228A /* 225-a.json in Resources */,
+				6036A26A21E6744200275A06 /* 453-to-many-ordered-relationship-ids-update.json in Resources */,
 				14867E701E7AF4D2001D228A /* bug-254.json in Resources */,
 				44E38B2D2005EEB2003E896B /* 422-one-to-one-delete-option-initial.json in Resources */,
 				14867EC71E7AF4D2001D228A /* users_notes.json in Resources */,
@@ -2101,6 +2159,7 @@
 				14867E731E7AF4D2001D228A /* bug-257.json in Resources */,
 				14867E671E7AF4D2001D228A /* bug-202-a.json in Resources */,
 				44E38B272005EEB2003E896B /* 422-one-to-one-update-option-update.json in Resources */,
+				6036A26921E6743E00275A06 /* 453-to-many-ordered-relationship-item-insert.json in Resources */,
 				14867E6D1E7AF4D2001D228A /* bug-239.json in Resources */,
 				CC86E0A920216FF400AA0947 /* primary-key-organizations.json in Resources */,
 				14867E1F1E7AF4D2001D228A /* 151-to-many-users-update.json in Resources */,
@@ -2148,6 +2207,7 @@
 				14867EAA1E7AF4D2001D228A /* stories-comments-no-ids.json in Resources */,
 				44E38B342005EEB2003E896B /* 422-one-to-one-insert-option-initial.json in Resources */,
 				14E6522C1E809A68000E7CC6 /* remote_key.json in Resources */,
+				5DB9E01A219AE3F100D6F869 /* 519.json in Resources */,
 				14867EC21E7AF4D2001D228A /* users_c.json in Resources */,
 				14867E771E7AF4D2001D228A /* bug-number-84.json in Resources */,
 				44E38AFB2005E68D003E896B /* 422-one-to-many-delete-option-initial.json in Resources */,
@@ -2158,6 +2218,7 @@
 				14867E2C1E7AF4D2001D228A /* 157-locations.json in Resources */,
 				14867E261E7AF4D2001D228A /* 157-cities.json in Resources */,
 				44E38B162005EE70003E896B /* 422-many-to-many-delete-option-update.json in Resources */,
+				6036A26D21E6744500275A06 /* 453-to-many-ordered-relationship-objects-update.json in Resources */,
 				44E38B252005EEB2003E896B /* 422-one-to-one-update-option-initial.json in Resources */,
 				44BBBC741F9F026200590624 /* 412.json in Resources */,
 				14867E471E7AF4D2001D228A /* 280.json in Resources */,
@@ -2166,16 +2227,20 @@
 				14867E501E7AF4D2001D228A /* 3ca82a0.json in Resources */,
 				CC9494161F379401002167B4 /* 375-to-one-speeches.json in Resources */,
 				14867E1D1E7AF4D2001D228A /* 151-to-many-notes.json in Resources */,
+				60802B5621E40D2700307B88 /* ordered-many-to-many-update-inital.json in Resources */,
 				14867EB61E7AF4D2001D228A /* to-one-snakecase.json in Resources */,
 				14867E531E7AF4D2001D228A /* bug-113-comments-no-id.json in Resources */,
 				CC86E0AD20216FF400AA0947 /* 447.json in Resources */,
+				60802B5C21E411E200307B88 /* inital-ordered-many-to-many-update.json in Resources */,
 				14867E951E7AF4D2001D228A /* notes_with_user_id_custom.json in Resources */,
 				14867DE71E7AF4D2001D228A /* users.json in Resources */,
 				14867EB31E7AF4D2001D228A /* to-one-camelcase.json in Resources */,
 				14867E861E7AF4D2001D228A /* id.json in Resources */,
 				14867EBF1E7AF4D2001D228A /* users_b.json in Resources */,
+				6036A27021E6755700275A06 /* 453-to-many-ordered-relationship-objects-initial.json in Resources */,
 				14867E231E7AF4D2001D228A /* 151-to-many-users.json in Resources */,
 				14867E7D1E7AF4D2001D228A /* comments-no-id.json in Resources */,
+				60802B5821E40D2A00307B88 /* ordered-many-to-many-update-update.json in Resources */,
 				44E38AFE2005E68D003E896B /* 422-one-to-many-insert-option-initial.json in Resources */,
 				14867DED1E7AF4D2001D228A /* users3.json in Resources */,
 				44E38B042005E68D003E896B /* 422-one-to-many-update-option-initial.json in Resources */,
@@ -2190,6 +2255,7 @@
 				14867EA11E7AF4D2001D228A /* operation-types-users-b.json in Resources */,
 				4494AEAA1FE5E3410064999E /* 457-products.json in Resources */,
 				14867E381E7AF4D2001D228A /* 225-a.json in Resources */,
+				6036A26B21E6744200275A06 /* 453-to-many-ordered-relationship-ids-update.json in Resources */,
 				14867E711E7AF4D2001D228A /* bug-254.json in Resources */,
 				44E38B2E2005EEB2003E896B /* 422-one-to-one-delete-option-initial.json in Resources */,
 				14867EC81E7AF4D2001D228A /* users_notes.json in Resources */,
@@ -2211,6 +2277,7 @@
 				14867E741E7AF4D2001D228A /* bug-257.json in Resources */,
 				14867E681E7AF4D2001D228A /* bug-202-a.json in Resources */,
 				44E38B282005EEB2003E896B /* 422-one-to-one-update-option-update.json in Resources */,
+				6036A26821E6743E00275A06 /* 453-to-many-ordered-relationship-item-insert.json in Resources */,
 				14867E6E1E7AF4D2001D228A /* bug-239.json in Resources */,
 				CC86E0AA20216FF400AA0947 /* primary-key-organizations.json in Resources */,
 				14867E201E7AF4D2001D228A /* 151-to-many-users-update.json in Resources */,
@@ -2366,6 +2433,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60802B5421E40A3500307B88 /* ordered-many-to-many-update.xcdatamodeld in Sources */,
 				14867ECC1E7AF4D2001D228A /* 125.xcdatamodeld in Sources */,
 				14867F831E7AF4D2001D228A /* TestCheckTests.swift in Sources */,
 				14867F291E7AF4D2001D228A /* Recursive.xcdatamodeld in Sources */,
@@ -2484,7 +2552,9 @@
 				14867ED31E7AF4D2001D228A /* 151-ordered-many-to-many.xcdatamodeld in Sources */,
 				14867F4B1E7AF4D2001D228A /* SyncTests.swift in Sources */,
 				CCF94958203AE72700C64B80 /* 480.xcdatamodeld in Sources */,
+				5DB9E018219AE3EC00D6F869 /* 519.xcdatamodeld in Sources */,
 				14867EF41E7AF4D2001D228A /* 265.xcdatamodeld in Sources */,
+				60802B5D21E41A1200307B88 /* ordered-many-to-many-update.xcdatamodeld in Sources */,
 				14867EFD1E7AF4D2001D228A /* 283.xcdatamodeld in Sources */,
 				445851E31E87BAF60025434E /* SyncDictionaryTests.m in Sources */,
 				14867EEE1E7AF4D2001D228A /* 254.xcdatamodeld in Sources */,
@@ -2584,7 +2654,9 @@
 				14867ED41E7AF4D2001D228A /* 151-ordered-many-to-many.xcdatamodeld in Sources */,
 				14867F4C1E7AF4D2001D228A /* SyncTests.swift in Sources */,
 				CCF94959203AE72700C64B80 /* 480.xcdatamodeld in Sources */,
+				5DB9E017219AE3EB00D6F869 /* 519.xcdatamodeld in Sources */,
 				14867EF51E7AF4D2001D228A /* 265.xcdatamodeld in Sources */,
+				60802B5E21E41A1300307B88 /* ordered-many-to-many-update.xcdatamodeld in Sources */,
 				14867EFE1E7AF4D2001D228A /* 283.xcdatamodeld in Sources */,
 				445851E41E87BAF60025434E /* SyncDictionaryTests.m in Sources */,
 				14867EEF1E7AF4D2001D228A /* 254.xcdatamodeld in Sources */,
@@ -3814,6 +3886,16 @@
 			);
 			currentVersion = 5D96F24E219AD98200F88770 /* 519.xcdatamodel */;
 			path = 519.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		60802B5221E40A3500307B88 /* ordered-many-to-many-update.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				60802B5321E40A3500307B88 /* update-ordered-many-to-many.xcdatamodel */,
+			);
+			currentVersion = 60802B5321E40A3500307B88 /* update-ordered-many-to-many.xcdatamodel */;
+			path = "ordered-many-to-many-update.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
